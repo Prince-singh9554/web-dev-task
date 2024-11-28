@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Interface</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="search-container">
+    <div class="dropdown">
+      <select id="category-select">
+        <option value="everything" selected>Everything</option>
+        <option value="software-development">Software Development</option>
+        <option value="web-development">Web Development</option>
+        <option value="data-analyst">Data Analyst</option>
+        <option value="it-consultant">IT Consultant</option>
+        <option value="network-administrator">Network Administrator</option>
+      </select>
+    </div>
+    <div class="search-field">
+      <input type="text" id="search-input" placeholder="Enter your search query...">
+      <button id="search-button">Search</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
